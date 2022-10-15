@@ -1,0 +1,72 @@
+  AutoClicker.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly AutoClicker, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CustomSelection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(ControlCollection, System.Drawing.Point, System.Drawing.Size, System.String[], System.ComponentModel.ComponentResourceManager): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ComponentModel.ComponentResourceManager resources : Public
+    ControlCollection ParentOfSelection : Public
+    System.String[] Items : Public
+    System.Drawing.Point Location : Public
+    System.Drawing.Size Size : Public
+    System.Windows.Forms.Label SetItems : Public
+    System.Windows.Forms.Button SelectionMain : Public
+    System.Windows.Forms.PictureBox ArrowImage : Public
+    System.Windows.Forms.Label UnderLineSelection : Public
+    System.Windows.Forms.Label List : Public
+    Boolean Opened : Public
+  Methods:
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    SetNewItems(Object, EventArgs): PrivateScope, Public, HideBySig
+    ChangeListOpen(Object, EventArgs): PrivateScope, Public, HideBySig
+    GetLengthItems(): PrivateScope, Public, HideBySig
+    RePosSizeList(): PrivateScope, Public, HideBySig
+    CreateItemInList(Int32): PrivateScope, Public, HideBySig
+    ItemClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    OpenCloseItems(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    CustomSelectionClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class CustomNumericUpDown: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(ControlCollection, System.Drawing.Point, System.Drawing.Size, System.Drawing.Size, System.ComponentModel.ComponentResourceManager, Int32, Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ComponentModel.ComponentResourceManager resources : Public
+    ControlCollection ParentOfSelection : Public
+    System.Drawing.Point Location : Public
+    System.Drawing.Size Size : Public
+    System.Drawing.Size UpDownSize : Public
+    Int32 MinValue : Public
+    Int32 MaxValue : Public
+    Boolean CreateUpDownButtons : Public
+    System.Windows.Forms.Label LabelBackground : Public
+    System.Windows.Forms.TextBox NumericUpDown : Public
+    System.Windows.Forms.Button UpButton : Public
+    System.Windows.Forms.Button DownButton : Public
+    System.Windows.Forms.Label UnderLineNumbericUpDown : Public
+    Boolean UpButtonHolding : Public
+    Boolean DownButtonHolding : Public
+    Int32 CurrentNumber : Public
+    System.String LastText : Public
+  Methods:
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    ButtonHolding(Object): PrivateScope, Public, HideBySig
+    OnMouseDown(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    OnMouseUp(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    NumericUpDownFocused(Object, EventArgs): PrivateScope, Public, HideBySig
+    NumericUpDownUnFocused(Object, EventArgs): PrivateScope, Public, HideBySig
+    NumericUpDownTextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    OnPaint(Object, PaintEventArgs): PrivateScope, Public, HideBySig
+Class AutoClicker.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

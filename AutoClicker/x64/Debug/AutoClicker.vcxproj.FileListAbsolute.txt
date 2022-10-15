@@ -1,0 +1,4 @@
+C:\Users\vit_3\source\repos\AutoClicker\AutoClicker\x64\Debug\AutoClicker.vcxproj.AssemblyReference.cache
+C:\Users\vit_3\source\repos\AutoClicker\AutoClicker\x64\Debug\AutoClicker.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\vit_3\source\repos\AutoClicker\AutoClicker\x64\Debug\AutoClicker.MyForm.resources
+C:\Users\vit_3\source\repos\AutoClicker\AutoClicker\x64\Debug\AutoClicker.vcxproj.GenerateResource.cache
